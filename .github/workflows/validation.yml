@@ -14,5 +14,7 @@ jobs:
     container: rubentgx/dotnetcoverageprinter:v1.0.0 # your docker image
     steps:
     # Runs a single command using the runners shell
+    - name: Show Files
+      run: ls
     - name: Try script
       run: /app/scripts/print-dotnet-coverage.sh Cobertura.xml
