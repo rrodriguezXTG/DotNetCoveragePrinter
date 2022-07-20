@@ -13,10 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     container: rubentgx/dotnetcoverageprinter:v1.0.0 # your docker image
     steps:
+    - uses: actions/checkout@v2
+    
     # Runs a single command using the runners shell
     - name: Show Files
       run: |
-       ls
+       ls -a
        cat /github/workspace/app/scripts/Cobertura.xml
     - name: Try script
       run: /app/scripts/print-dotnet-coverage.sh Cobertura.xml
