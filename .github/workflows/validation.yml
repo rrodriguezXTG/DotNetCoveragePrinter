@@ -19,6 +19,4 @@ jobs:
     - name: Show Files
       run: |
        ls -a
-       cat /github/workspace/app/scripts/Cobertura.xml
-    - name: Try script
-      run: /app/scripts/print-dotnet-coverage.sh Cobertura.xml
+       /app/scripts/print-dotnet-coverage.sh Cobertura.xml
