@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.723213296398892" branch-rate="0.6025824964131994" lines-covered="6527" lines-valid="9025" branches-covered="1260" branches-valid="2091" complexity="3364" version="0" timestamp="1658217963">
+  <sources>
+    <source>/builds/connectors/common/Connectors/src/</source>
+    <source>/builds/connectors/common/Connectors/</source>
+  </sources>
+</coverage>
