@@ -15,6 +15,6 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Show Files
-      run: ls
+      run: "ls"
     - name: Try script
       run: /app/scripts/print-dotnet-coverage.sh Cobertura.xml
