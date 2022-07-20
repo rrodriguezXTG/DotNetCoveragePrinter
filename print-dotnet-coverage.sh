@@ -1,4 +1,3 @@
-#!/usr/bin/env
 
 REPORTS_DIR="${1}"
 
